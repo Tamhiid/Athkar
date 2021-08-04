@@ -7,6 +7,13 @@ var count = 1
 
 // athkar_counter = 2
 counter.addEventListener('click', function(){
+    
+
+    if(count === 34){
+        alert('Completed')
+        count = 0
+    }
+
     athkar_counter.textContent = count++
 })
 
